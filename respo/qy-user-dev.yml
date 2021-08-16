@@ -10,7 +10,7 @@ spring:
         enabled: false
         service-id: qy-config
 server:
-  port: 8011
+  port: 8012
   
 eureka:
   client:
