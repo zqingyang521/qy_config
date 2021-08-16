@@ -6,8 +6,12 @@ spring:
       label: master
       profile: dev
       uri: http://localhost:8001/
+      discovery:
+        enabled: false
+        service-id: qy-config
 server:
-  port: 8101
+  port: 8011
+  
 eureka:
   client:
     service-url:
