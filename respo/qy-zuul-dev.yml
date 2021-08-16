@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+server:
+  port: 8080
+spring:
+  application:
+    name: qy-zuul
+zuul:
+  routes:
+    api-user:
+      path: /apu-user/*
+      sericeId: qy-user
