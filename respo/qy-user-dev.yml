@@ -5,9 +5,8 @@ spring:
     config:
       label: master
       profile: dev
-      uri: http://localhost:8001/
       discovery:
-        enabled: false
+        enabled: true
         service-id: qy-config
 server:
   port: 8012
