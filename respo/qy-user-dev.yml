@@ -8,6 +8,9 @@ spring:
       discovery:
         enabled: true
         service-id: qy-config
+  redis:
+    host: 127.0.0.1
+    database: 0
 server:
   port: 8012
   
