@@ -9,8 +9,16 @@ spring:
         enabled: true
         service-id: qy-config
   redis:
-    host: 127.0.0.1
-    database: 0
+    database: 2
+    host: localhost
+    port: 32768
+    password: 1qaz@WSX
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+    timeout: 100ms
 server:
   port: 8012
   
