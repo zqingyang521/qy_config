@@ -10,5 +10,5 @@ spring:
 zuul:
   routes:
     api-user:
-      path: /apu-user/*
+      path: /api-user/*
       sericeId: qy-user
